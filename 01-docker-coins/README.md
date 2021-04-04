@@ -4,6 +4,10 @@
 
 ## Dockercoins es una aplicación de prueba que utilizarás para maximizar el aprendizaje de Kubernetes. Está compuesta por diferentes microservicios escritos en múltiples lenguajes como Python, Nodejs y Ruby que se comunican entre sí con la finalidad de minar una moneda virtual artifical. Despliega los microservicios de esta aplicación para implementar todos los conceptos de Kubernetes.
 
+### Iniciar proyecto
+`cd dockercoins`
+`docker-compose up`
+
 ![Screenshot](imagenes-proyecto/dockercoins.png)
 ![Screenshot](imagenes-proyecto/k8s-dashboard.png)
 ![Screenshot](imagenes-proyecto/proyect.png)
