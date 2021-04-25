@@ -8,6 +8,12 @@
 `cd dockercoins`
 `docker-compose up`
 
+### ejecomplo
+kube multi_node
+https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
+### escalar nodo
+kubectl scale deploy/pingpong-deployment --replicas 8
+
 ![Screenshot](imagenes-proyecto/dockercoins.png)
 ![Screenshot](imagenes-proyecto/k8s-dashboard.png)
 ![Screenshot](imagenes-proyecto/proyect.png)
