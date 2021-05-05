@@ -17,4 +17,3 @@ kubectl scale deploy/pingpong-deployment --replicas 8
 ![Screenshot](imagenes-proyecto/dockercoins.png)
 ![Screenshot](imagenes-proyecto/k8s-dashboard.png)
 ![Screenshot](imagenes-proyecto/proyect.png)
-
