@@ -1,6 +1,11 @@
 # kubernetes_projects
 Projects using kubernetes
 
+# Iniciar kubectl
+- minikube start
+
+# Iniciar dashboard
+https://github.com/kubernetes/dashboard
 # Iniciar nodos
 - minikube start --nodes 2 -p multinode-demo
 
@@ -12,9 +17,12 @@ kubectl describe service name_service
 # obtener info nodos y ips
 - kebuctl get pods -o wide
 - kubectl get service
-## lanzar imagen 
+## lanzar imagen
 - kubectl create deployment httpenv --image jpetazzo/httpenv
 ## scaled
 - kubectl scale deployment httpenv --replicas=10
 ## ver todos los servicios
 - kubectl get all
+
+# Get info Cluster
+- kubectl get svc kubernetes

@@ -14,6 +14,9 @@ https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 ### escalar nodo
 kubectl scale deploy/pingpong-deployment --replicas 8
 
+### levantar dashboard
+kubectl apply -f kubernetes-dashboard.yaml
+
 ![Screenshot](imagenes-proyecto/dockercoins.png)
 ![Screenshot](imagenes-proyecto/k8s-dashboard.png)
 ![Screenshot](imagenes-proyecto/proyect.png)
